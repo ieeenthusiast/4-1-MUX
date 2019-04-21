@@ -12,7 +12,7 @@ use ieee.numeric_std.all;
 
 entity MUX4_1 is port (
 	I0,I1,I2,I3	: 	in 	std_logic;	--inputs
-	S		:	in		std_logic_vector(1 downto 0);	--select
+	S		:	in	std_logic_vector(1 downto 0);	--select
 	Q		:	out	std_logic);	--output
 end MUX4_1;
 
